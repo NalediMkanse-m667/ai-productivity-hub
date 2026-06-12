@@ -5,6 +5,7 @@ import {
   Sparkles,
   CalendarDays,
   Settings,
+  BookOpen,
   Bot,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -14,6 +15,7 @@ const items = [
   { title: "Tasks", url: "/tasks", icon: ListChecks },
   { title: "AI Assistant", url: "/assistant", icon: Sparkles },
   { title: "Schedule", url: "/schedule", icon: CalendarDays },
+  { title: "Docs", url: "/docs", icon: BookOpen },
   { title: "Settings", url: "/settings", icon: Settings },
 ];
 
